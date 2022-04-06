@@ -1,0 +1,66 @@
+h1 {
+  margin-top: 85px;
+  font-size: 40px;
+}
+h2 {
+  margin-top: 60px;
+  font-size: 45px;
+}
+p {
+  font-size: 12px;
+}
+.header {
+  width: 50%;
+  position: relative;
+  left: 50px;
+  top: 23px;
+}
+input {
+  width: 241px;
+  padding: 6px;
+}
+.search {
+  padding: 8px;
+  width: 91px;
+  background-color: #bcdb99;
+  color: black;
+}
+.current {
+  padding: 8px;
+  width: 91px;
+  color: black;
+}
+.info {
+  margin-top: 60px;
+  box-shadow: 0px 6px 2px rgb(105, 103, 103);
+}
+.current {
+  width: 50%;
+  position: relative;
+  left: 50px;
+}
+.forecast {
+  width: 35%;
+  position: fixed;
+  left: 536px;
+  bottom: 136px;
+}
+.sun {
+  font-size: 80px;
+  position: relative;
+  left: 96px;
+}
+.temperature {
+  position: relative;
+  left: 116px;
+}
+.emoji {
+  position: relative;
+  left: 285px;
+  font-size: 45px;
+}
+.cards {
+  padding: 0px;
+  background-color: #c9e3e1;
+  border: 1px solid #bec2cb;
+}
