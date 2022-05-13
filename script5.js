@@ -76,7 +76,6 @@ function searchCity(event) {
 let form = document.querySelector(".header");
 form.addEventListener("submit", searchCity);
 
-
 // teacher solution
 function formatDate(date) {
   let hours = date.getHours();
@@ -96,7 +95,7 @@ function formatDate(date) {
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
+    "Saturday",
   ];
   let day = days[dayIndex];
 
@@ -131,9 +130,7 @@ function handleSubmit(event) {
 
 function searchLocation(position) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${
-    position.coords.latitude
-  }&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
 
   axios.get(apiUrl).then(displayWeatherCondition);
 }
